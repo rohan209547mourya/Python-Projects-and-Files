@@ -1,12 +1,15 @@
 import random
+from colorama import Fore
 
-print("************************************")
-print("Welcome to the Number Guessing Game!")
-print("************************************")
+print(Fore.GREEN + "************************************")
+print(Fore.CYAN + "Welcome to the Number Guessing Game!")
+print(Fore.GREEN + "************************************")
 
 random_number = None
 guess = None
 number_of_guess = 5
+
+print(Fore.YELLOW)
 
 
 def create_random_number():
