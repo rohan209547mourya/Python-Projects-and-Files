@@ -18,3 +18,4 @@ t = turtle.Turtle()
 # t.fd(100)
 
 t.circle(100)
+t.tiltangle(24)
